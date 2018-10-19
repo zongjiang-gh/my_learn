@@ -1,0 +1,34 @@
+﻿2/activity/cardCount
+    String groupId,String actId,  String token
+    
+{code: 200, state: "{"userId":"176811553Card8001","gameZoneId":0,"rewa…yCount":0,"FBcount":0,"DAYcount":0,"Nextcount":1}"}
+{"code":200,"state":"{\"userId\":\"176811553Card8001\",\"gameZoneId\":0,\"rewardCount\":0,\"createDate\":\"2018-09-20 02:38:14\",\"SumCount\":0,\"PaySum\":0,\"PayCount\":0,\"FBcount\":0,\"DAYcount\":0,\"Nextcount\":1}"}
+rewardInfoList:{key:rewardId}	
+	
+1/activity/cardReward
+    String groupId,String actId, String token,String rewardId,int index
+	
+
+返回参数都是
+{
+  code:200/400/404
+  state:{
+         
+        
+		}
+}
+
+ <!--<script src="./static/uaredirect.js"></script>-->
+  <script>
+    // uaredirect('./mobile/index.html');
+  </script>
+
+
+
+
+i 暂时不用了 /activity/userCardInfo
+    String groupId,String actId,  String token
+ 
+美术那边怎么样了，离21号只有1天，要么再催催素材
+还有facebook分享的图片，内容和标题，
+还有奖励的图片这些的，

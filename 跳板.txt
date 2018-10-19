@@ -1,0 +1,58 @@
+测试分享按钮的流程，是在正式服务器上有一个Nginx的服务来提供支持的
+地址和端口是：172.16.3.208:16333
+
+账号：zongjiang.ge
+密码：Aa123456!（输入密码后并不显示，直接回车就可以了）
+
+使用命令
+iplist 获取服务器的列表项
+选2gms业务支持r回退到上一层，s同步iplist e退出程序
+
+changic
+
+ 1 -- public (公共业务支持)
+ 2 -- gms (gms业务支持)*
+ 3 -- sdk (sdk业务支持平台)
+
+IP List Agents Select（IP列表代理选择）
+
+  1 -- gms_ops (运维中控平台服)
+  2 -- gms_gameweb (游戏官网服)*42.200.41.49   代理服务器
+  3 -- gms_gameact (活动后台服)
+  4 -- gms_chweb (千奇官网服)
+
+cd /usr/local/nginx/
+/usr/local/nginx
+
+ls
+client_body_temp  conf  fastcgi_temp  html  logs  proxy_temp  sbin  scgi_temp  uwsgi_temp
+
+cd conf/vhosts/
+
+ll
+total 184
+游戏的配置的文件名是游戏名称的首字母3ds - 地区、国家名.conf
+de德国
+fr法国
+id
+kr
+th泰国
+vn越南
+kdygvs-tw.conf台湾和香港的口袋妖怪
+
+cat kdygvs-tw.conf 
+问运营是这个主页吗？
+cd /data/web/sites/kdygvs-tw
+
+ls
+activity            auto_link.html          auto_vs.html  ios_download_guide  mobile  share
+auto_download.html  auto_link_Youtube.html  index.html    landpage            news    static
+
+cd share/
+
+cat index.html
+
+rz -bey 打开windows的页面来选择上传的资源
+ls
+
+

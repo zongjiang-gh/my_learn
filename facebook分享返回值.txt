@@ -1,0 +1,45 @@
+³É¹¦£º
+MessageEvent
+bubbles: false
+cancelBubble: false
+cancelable: false
+composed: false
+currentTarget: Window {postMessage: ?, blur: ?, focus: ?, close: ?, frames: Window, ¡­}
+data: []
+defaultPrevented: false
+eventPhase: 0
+isTrusted: true
+lastEventId: ""
+origin: "http://pokeko.pocketgamesol.com"
+path: [Window]
+ports: []
+returnValue: true
+source: global {window: global, self: global, location: Location, closed: false, frames: global, ¡­}
+srcElement: Window {postMessage: ?, blur: ?, focus: ?, close: ?, frames: Window, ¡­}
+target: Window {postMessage: ?, blur: ?, focus: ?, close: ?, frames: Window, ¡­}
+timeStamp: 17050.40000000008
+type: "message"
+__proto__: MessageEvent
+Ê§°Ü£º 
+MessageEvent {
+bubbles: false
+cancelBubble: false
+cancelable: false
+composed: false
+currentTarget: Window {postMessage: ?, blur: ?, focus: ?, close: ?, frames: Window, ¡­}
+data: undefined
+defaultPrevented: false
+eventPhase: 0
+isTrusted: true
+lastEventId: ""
+origin: "http://pokeko.pocketgamesol.com"
+path: [Window]
+ports: []
+returnValue: true
+source: global {window: global, self: global, location: Location, closed: false, frames: global, ¡­}
+srcElement: Window {postMessage: ?, blur: ?, focus: ?, close: ?, frames: Window, ¡­}
+target: Window {postMessage: ?, blur: ?, focus: ?, close: ?, frames: Window, ¡­}
+timeStamp: 89293.79999999946
+type: "message"
+__proto__: MessageEvent
+

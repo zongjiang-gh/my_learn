@@ -1,0 +1,30 @@
+ fbLogin() {
+        FB.getLoginStatus(function (response) {
+          if (response.status === "connected") {
+            this.FBSdkLogin(response.authResponse.accessToken);
+          } else {
+            FB.login(
+              function (response) {
+                console.log(response);
+                if (response.status === "connected") {
+                  // Logged into your app and Facebook.
+                  this.FBSdkLogin(response.authResponse.userID);
+                } else {
+                  // The person is not logged into this app or we are unable to tell.
+                }
+              }.bind(this)
+            );
+          }
+        });
+      },
+南山公园海关登山口
+ // showDialogTip () {
+    //   this.$refs.tip.toggleDialog(false)
+    //   this.tips.pop()
+    //   if(this.tips[this.tips.length - 1]){
+    //     setTimeout(() => {
+    //       this.$refs.tip.toggleDialog(true)
+    //     },400)
+    //
+    //   }
+    // },
