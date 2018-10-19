@@ -32,8 +32,4 @@ info {
 
 查询接口 ： http://172.16.3.144:8081/activity/info?actId=5b980198b5cb67102cd946b9&groupId=5b91d27fb5cb67102cd946ae&token=75eac874-2365-420f-b46f-d9a7ae315007
 
-领取礼包的接口返回值join：{code: 200, state: {actId: "5b980198b5cb67102cd946b9"getDate: "2018-09-12 03:21:54"goodId: "67d5dee7-e78a-4024-98cc-9f1308a6b007"historyId: "5b9815d2b5cb6711a4636c8f"isGet: trueplayerName: "可愛的瑾涵"rewardId: "5b980e92b5cb67102cd946c3"rewardName: "10.1国庆礼包"thirdGameZoneId: "8001"type: 0userId: "67750133"userName: "Qiong@9266.com"}
-
-
-rgba(29,41,61,0.50)
-rgb(231,240,254)
+领取礼包的接口返回值join：{code: 200, state: {actId: "5b980198b5cb67102cd946b9"getDate: "2018-09-12 03:21:54"goodId: "67d5dee7-e78a-4024-98cc-9f1308a6b007"historyId: "5b9815d2b5cb6711a4636c8f"isGet: trueplayerName: "可愛的瑾涵"rewardId: "5b980e92b5cb67102cd946c3"rewardName: "10.1国庆礼包"thirdGameZoneId: "8001"type: 0userId: "67750133"userName: "Qiong@9266.com"})
