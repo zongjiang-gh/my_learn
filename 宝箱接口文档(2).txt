@@ -1,0 +1,75 @@
+﻿//每次打开箱子调一次
+http://172.16.10.132:8082/activity/cardReward?groupId=5bee8e0bb5cb67194071f102
+&actId=5bee8e49b5cb67194071f103&token=a785b8be-9631-4c49-86e5-a7fb7453bd40&rewardId=5bf0301ab5cb67194071f109&index=1
+
+
+{
+  "code": 200,
+ 
+   "state": {
+    
+   "getDate": "2018-12-12",
+    
+   "returnCount": 0, （奖励次数）
+   
+   "restCount": 0, （剩余次数）
+    
+   "rewardName": "Éclat de Hoopa - Forme Enchaînée*1",
+    
+   "Nextcount": 1, （剩下需要次数）
+    
+   "rewardId": "5bf0301ab5cb67194071f109"
+  
+   }
+
+}
+
+
+//初次页面调一次
+http://172.16.10.132:8082/activity/cardCount?
+groupId=5bee8e0bb5cb67194071f102&actId=5bee8e49b5cb67194071f103&token=a785b8be-9631-4c49-86e5-a7fb7453bd40
+&fbShare=false&wishId=asdfas
+
+{
+  "code": 200,
+ 
+   "state": {
+    
+      "rewardList": [
+ 
+            {
+      
+           "getDate": "2018-12-12",
+       
+            "index": "1",
+        
+            "imageUrl": "",
+        
+            "rewardName": "Éclat de Hoopa - Forme Enchaînée*1",
+        
+            "rewardId": "5bf0301ab5cb67194071f109"
+     
+             }
+    ],
+   
+    "returnCount": 0,
+    
+    "restCount": 0,
+    
+    "Nextcount": 1
+  
+     }
+
+}
+
+/activity/cardReward
+  String groupId,String actId,String token,String rewardId,int index
+
+
+/activity/cardCount
+  String groupId,String actId,String token,String fbShare,String wishId (许愿活动奖励ID)
+
+
+/activity/cardBoxFB
+ String groupId,String actId,String token,String fbShare
+

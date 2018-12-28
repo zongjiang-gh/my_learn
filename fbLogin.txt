@@ -28,3 +28,45 @@
     //
     //   }
     // },
+读取localStorage中的值，定时刷新
+ //  setTimeout(() => {
+      //     this.reloadZones()
+      //  },1000)
+
+// if (localStorage._version) {
+    //   this.version = localStorage._version;
+    //   var active = new Date().getTime();
+    //   active -= 60000;
+    //   if (active < parseInt(localStorage.activetime)) {
+    //     if(localStorage._version === 'v1'){
+    //        this.currentPageV1 = +localStorage._currentPage
+    //        this.defaultGameV1 = localStorage._defaultGame
+    //     }else if(localStorage._version === 'v2'){
+    //       this.currentPageV2 = +localStorage._currentPage
+    //       this.defaultGameV2 = localStorage._defaultGame
+    //     }
+       
+    //   }else{
+    //     localStorage.clear();
+    //   }
+    // }
+
+ reloadZones() {
+    let currentPage = '';
+    let defaultGame = '';
+
+    if(this.version === VER_1){
+
+     currentPage = 'currentPageV1';
+     defaultGame = 'defaultGameV1';
+    }else{
+      currentPage = 'currentPageV2';
+      defaultGame = 'defaultGameV2';
+    }
+    localStorage.setItem('_currentPage',this[currentPage]);
+    localStorage.setItem('_defaultGame',this[defaultGame]);
+    localStorage.setItem('_version',this.version);
+    var myTimer = new Date().getTime();
+    localStorage.setItem('activetime', myTimer + '')
+    location.reload();
+  }

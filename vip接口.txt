@@ -1,0 +1,16 @@
+/activity/vipReturn
+  String groupId,String actId, String token,String rewardId,token,String  viplevel
+
+{
+  code:200/400/404/1001
+  state:{
+         rewardId:
+         getDate:
+         rewardName:   
+		}
+}
+
+
+1001: vip 等级不够或者奖励已经领取
+404：条件参数不符合
+400：服务错误

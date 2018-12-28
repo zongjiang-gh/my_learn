@@ -204,3 +204,24 @@ Base中的文件主要是对自己的后台的请求的发送，在base.ts文件
 剩下的全是一些具体的业务逻辑的接口了，页面是在Dom中
 
 最终使用sdk是将其加载到游戏包中
+
+## SDK最终的上传
+
+主机：52.221.145.234
+
+目录结构： /data/platform/platform-sdk-v2/webapp/jssdk
+
+iplist ----> changic -----> 3  ------> 2 -------> 4
+
+原生打包地址：https://cdn-xianlingji.bilivfun.com/quick/index_tw.html?appId=10120&sdkVersion=v2.2&advChannel=40&BID=com.xianwuyu&v=110
+
+test-sg，新加坡，港台、印尼等
+
+vn越南：东南亚
+
+de :德国，欧洲
+
+dev 本地
+
+test 测试服
+
